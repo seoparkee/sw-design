@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App';
 import './loginpage.css';
-import busStopWithBus from './assets/images/backgroundimage.PNG';
+
 
 function LoginPage() {
   const [teamName, setTeamName] = useState('');
@@ -39,7 +39,7 @@ function LoginPage() {
   return (
     <div className="login-container">
       <div className="background-wrapper">
-        <img src={busStopWithBus} alt="버스정류장" className="background-image" />
+        
         <div className="login-box">
           <label>TOTO</label>
           <div></div>
@@ -62,8 +62,8 @@ function LoginPage() {
           <input
             type="password"
             placeholder="PASSWORD"
-            value={userPW}
-            onChange={(e) => setUserPW(e.target.value)}
+            value={teamPW}
+            onChange={(e) => setTeamPW(e.target.value)}
             style={inputStyle}
           />
         </div>
