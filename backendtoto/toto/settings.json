@@ -1,0 +1,20 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+  "python.pythonPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}/backendtoto",
+    "${workspaceFolder}/backendtoto/toto",
+    "${workspaceFolder}/backendtoto/toto/users"
+  ],
+  "python.autoComplete.extraPaths": [
+    "${workspaceFolder}/backendtoto",
+    "${workspaceFolder}/backendtoto/toto",
+    "${workspaceFolder}/backendtoto/toto/users"
+  ],
+  "python.analysis.useLibraryCodeForTypes": true,
+  "python.analysis.indexing": true,
+
+  "python.analysis.diagnosticSeverityOverrides": {
+  "reportMissingImports": "none"
+}
+}
